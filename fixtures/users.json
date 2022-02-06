@@ -1,0 +1,17 @@
+[{
+    "username" : "admin",
+    "email": "admin@pawn.dev",
+    "password": "USH4Nwxq96ugkCPQmQ933fJc0Kke0UPN",
+    "tenant": "pawn",
+    "role": "ADMINISTRATOR",
+    "firstName": "Claude S.",
+    "lastName": "Mason"
+},{
+    "username" : "Mumbeeptind",
+    "email": "MartaDClayton@pawn.dev",
+    "password": "OoRe3ik1",
+    "tenant": "pawn",
+    "role": "USER",
+    "firstName": "Marta",
+    "lastName": "Clayton"
+}]

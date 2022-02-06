@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  pawn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "pawn:node-16" 
+    environment:
+      HOST: pawn
+      PORT: 9001
+      JWT_AUD: "http://pawn.dev"
+      JWT_ISS: "thepawn"
+      JWT_TTL: "30m"
+      AUTH_SECRET: QGL4OcyCdHKVwZQxxcMyXcGyMnhFzIM6
+    ports:
+      - 9001:9001
+    

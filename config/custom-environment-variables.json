@@ -1,0 +1,13 @@
+{
+    "host": "HOST",
+    "port": "PORT",
+    "authentication": {
+        "secret": "AUTH_SECRET",
+        "jwtOptions": {
+            "audience": "JWT_AUD",
+            "issuer": "JWT_ISS",
+            "algorithm": "JWT_ALG",
+            "expiresIn": "JWT_TTL"
+        }
+    }
+}
